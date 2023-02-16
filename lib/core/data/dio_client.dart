@@ -7,7 +7,7 @@ class DioClient {
 
   Future<dynamic> get({
     required String endpoint,
-    Map<String, dynamic> queryParameters: const {},
+    Map<String, dynamic> queryParameters = const {},
     CancelToken? cancelToken,
     String? key,
   }) async {
@@ -21,7 +21,7 @@ class DioClient {
 
   Future<dynamic> post({
     required String endpoint,
-    Map<String, dynamic> queryParameters: const {},
+    Map<String, dynamic> queryParameters = const {},
     required dynamic data,
     Function(int, int)? onSendProgress,
     CancelToken? cancelToken,

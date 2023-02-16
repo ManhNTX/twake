@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:twake/core/data/dio_client.dart';
 import 'package:twake/core/data/interceptor/dynamic_url_interceptors.dart';
-import 'package:twake/feature/authentication/login/data/network/interceptors/authentication_interceptors.dart';
+import 'package:twake/feature/authentication/data/network/interceptors/authentication_interceptors.dart';
 
 class NetworkBindings extends Bindings {
   @override
